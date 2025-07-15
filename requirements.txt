@@ -1,0 +1,23 @@
+# ETAF v2 Microservice Dependencies
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.4.2
+
+# Spark NLP and PySpark
+sparknlp==5.1.4
+pyspark==3.4.1
+
+# Additional utilities
+python-multipart==0.0.6
+python-json-logger==2.0.7
+requests==2.31.0
+
+# Optional performance improvements
+orjson==3.9.10
+python-jose[cryptography]==3.3.0
+
+# Development and testing (comment out for production)
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# httpx==0.25.2
