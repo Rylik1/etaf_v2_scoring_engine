@@ -5,7 +5,7 @@ uvicorn[standard]==0.24.0
 pydantic==2.4.2
 
 # Spark NLP and PySpark
-sparknlp==4.4.4
+sparknlp==4.3.2
 pyspark==3.4.1
 
 # Additional utilities
